@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    display: inline;
+}
+.Surah-Section{
+    padding: 2rem 6rem;
+}
+.Surahs{
+    display: flex;
+}
+audio{
+    width: 100%;
+}
+.flexItems{
+    width: 50%;
+    margin: 2rem;
+}
+button{
+    font-size: 1.5rem;
+    margin-left: 15px;
+    background: none;
+    background-color: transparent;
+    border: none;
+}
+.rotateBtn{
+    transform: rotate(180deg);
+}
+.Block{
+    display: block;
+}
+footer{
+    text-align: center;
+    background-color:#040c24;
+    color: #ffff;
+    padding: 0.1rem;
+}
+i{
+    padding: 1.3rem;
+}
+i:hover{
+    transform: scale(1.3);
+}
+@media screen and (max-width:768px) {
+    .Surahs{
+        flex-direction:column;
+    }    
+    .flexItems{
+        width: 100%;
+    }
+}
+
+

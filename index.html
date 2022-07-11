@@ -1,0 +1,136 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Al-Quran</title>
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@800&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        
+        <!-- CSS stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/2e7c8e52fa.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- responsive image background -->
+        <picture>
+            <source
+              media="(max-width: 1100px)"
+              srcset="./Designs/LogoDesktop.png"
+            />
+            <source
+              media="(max-width: 900px)"
+              srcset="./Designs/LogoTablet.png"
+            />
+            <source 
+                media="(max-width: 760px)" 
+                srcset="./Designs/LogoMobile.png" />
+            <img
+              src="../Designs/LogoDesktop.png"
+              alt="Quran Background"
+              style="max-width: 100%"
+            />
+      </picture>
+        
+        <!-- Surah section -->
+        <div class="Surah-Section">
+            <p>Click on the arrow button for recitation</p>
+            <h2>Surah Al-Kahaaf</h2> <button onclick = "ToggleDiv()"><i class="fa-solid fa-arrow-down"></i></button>
+            <div class = "Surahs">
+                <div class="flexItems">
+                    <audio controls>
+                        <source src="./Recitaions/Surah Al-Kahf.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="flexItems">
+                    <p>
+                    This Surah has 110 verses divided into 12 Rukus/Sections and was revealed in Mecca almost five years before Prophet Muhammad’s migration to Yathrib (Madina). 
+                    This was the time when the opposition of Meccans turned from verbal accusations and abuse to physical and socio-economic torture and bans. 
+                    This is the time when many Muslims migrated to nearby country of Abasinya and Prophet himself along with his close family members were seized in “Shaib Abi Talib.”
+                    <br>It is narrated in traditions that this Surah was revealed as a reply to a question which Meccans asked Prophet Muhammad on the advice of Jews regarding “Sleepers of the Cave” “Story of Khidr” and “Zulqurnain” 
+                    as these legends were there in the books of Israelites, but Arabs had no previous knowledge of them. They asked it as a test to make the prophet embarrassed of his ignorance. 
+                    But not only God revealed him the true story of all these but also simultaneously comforted the believers and warn the disbelievers that God is all powerful to change the situation and that God knows the unseen and reality is hidden from you.
+                    </p>
+                </div>
+            </div>
+
+            <p class="Block"></p>
+            <h2>Surah Yasin </h2> <button onclick = "ToggleDiv()"><i class="fa-solid fa-arrow-down"></i></button>
+            <div class = "Surahs">
+                <div class="flexItems">
+                    <audio controls>
+                        <source src="./Recitaions/Surah Yasin.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="flexItems">
+                    <p>
+                        This Surah has 83 verses divided into 5 Rukus. 
+                        Revealed in Mecca in a later stage of Muhammad’s declaration of his prophethood. 
+                        <br>Its primary focus is on the doctrine of Tauhid Oneness of God, Life after death and Admonish and warnings to Meccan’s for not accepting Muhammad’s message. 
+                        Name taken from first two letters of Surah and as we know that these letters are called Mystery Abbreviated Letters OR Hurrof Al Muqattat a brief introduction of which is already given in Quran Statistics & Facts.
+                    </p>
+                </div>
+            </div>
+
+            <p class="Block"></p>
+            <h2>Surah Ar-Rahman</h2> <button onclick = "ToggleDiv()"><i class="fa-solid fa-arrow-down"></i></button>
+            <div class = "Surahs">
+                <div class="flexItems">
+                    <audio controls>
+                        <source src="./Recitaions/Surah Ar_Rahman.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="flexItems">
+                    <p>
+                        This Surah has 78 verses divided into 3 Rukus/Sections. 
+                        <br>It takes its name from verse 1: الرَّحْمَٰن ُ. 
+                        The Most Gracious Merciful, which is an attribute and name of God. 
+                        This name is not only a title but also the topic of the Surah where the blessings of God’s mercy upon Jinn and humankind are mentioned and discussed. 
+                        Its revelation period is not certain, and some traditions state it as a Meccan while others a Madni Surah. 
+                        On the authority of Abdullah bin Abbas, Ikrimah and Qatadah there are some traditions that say that this Surah revealed in Madina, but most commentators think it as a Meccan surah. 
+                        Also, the subject of this Surah looks like that it is Meccans Surah.
+                    </p>
+                </div>
+            </div>
+
+            <p class="Block"></p>
+            <h2>Surah Al-Mulk</h2> <button onclick = "ToggleDiv()"><i class="fa-solid fa-arrow-down"></i></button>
+            <div class = "Surahs">
+                <div class="flexItems">
+                    <audio controls>
+                        <source src="./Recitaions/Surah mulk.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="flexItems">
+                    <p>
+                    This Surah has 30 verses divided into 2 Rukus/Sections. 
+                    It takes its name from verse 1: “….   تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ” ( Blessed is He in whose hand is dominion…..) where the word “الْمُلْكُ” meaning “Dominion/Sovereignty” appears. 
+                    This Surah was revealed in Mecca most probably during the early days of Muhammad’s proclamation of his prophethood.
+                    <br>It talks about the greatness of God and the magnificent universe that He has created.  
+                    It urges Mankind that if they consider the laws of nature and travel in the Earth with unbiased eyes, they will indeed see that this whole dominion belongs to God, and He alone controls everything.
+                    </p>
+                </div>
+            </div>
+            
+
+        </div>
+            
+        <!-- footer -->
+        <footer id="footer" >
+        
+            <i class="fab fa-twitter icon-footer"></i> 
+            <i class="fab fa-facebook-f icon-footer"></i>  
+            <i class="fab fa-instagram icon-footer"></i>    
+            <i class="fas fa-envelope icon-footer"></i>
+            <p id="copyrightTag"></p>
+        
+        
+        </footer>
+        <!-- JS File -->
+    <script src="./index.js"></script>    
+    </body>
+</html>
